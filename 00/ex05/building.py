@@ -32,7 +32,8 @@ def main():
         if (len(sys.argv) == 2):
             building(sys.argv[1])
         else:
-            building(input("What is the text to count?\n"))
+            print("What is the text to count?")
+            building(sys.stdin.readline())
     except EOFError:
         print("EOFError: ctrl+D")
     except AssertionError as e:
