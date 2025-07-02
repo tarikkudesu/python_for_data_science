@@ -14,6 +14,7 @@ def main():
 
 
 def docs():
+    """Display __doc__"""
     print(main.__doc__)
     print(ft_tqdm.__doc__)
 

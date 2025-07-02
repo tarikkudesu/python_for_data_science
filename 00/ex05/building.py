@@ -49,6 +49,7 @@ def main():
 
 
 def docs():
+    """Display __doc__"""
     print(main.__doc__)
     print(building.__doc__)
     print(ft_count.__doc__)

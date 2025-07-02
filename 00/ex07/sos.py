@@ -40,6 +40,7 @@ def main():
 
 
 def docs():
+    """Display __doc__"""
     print(main.__doc__)
 
 

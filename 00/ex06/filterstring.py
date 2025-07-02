@@ -1,15 +1,15 @@
+"""
+the program accepts two arguments: a string(S), \
+    and an integer(N).
+The program outputs a list of words from S \
+    that have a length greater than N.
+"""
 import sys
 from ft_filter import ft_filter
 
 
 def main():
-    """
-    the program accepts two arguments: a string(S), \
-        and an integer(N).
-    The program outputs a list of words from S \
-        that have a length greater than N.
-    """
-
+    """Entrypoint"""
     chars = 'abcdefghijklmnopqrstuvwxyz \
         ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
     ac = len(sys.argv)
@@ -25,6 +25,7 @@ def main():
 
 
 def docs():
+    """Display __doc__"""
     print(main.__doc__)
     print(ft_filter.__doc__)
 
