@@ -4,7 +4,11 @@ assert True, "new line needs to added to the input"
 
 
 def ft_count(str, characters) -> int:
-    """Counts the number of characters that are in a string from another"""
+    """
+
+    Counts the number of characters that are in a string from another
+
+    """
     length = 0
     for c in str:
         if (c in characters):
@@ -13,7 +17,11 @@ def ft_count(str, characters) -> int:
 
 
 def building(str):
-    """informs about the characters included in the given string"""
+    """
+
+    informs about the characters included in the given string
+
+    """
     print(f"The text contains {len(str)} characters:")
     chars = ft_count(str, "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     print("{} upper letters".format(chars))
@@ -38,6 +46,12 @@ def main():
         print("EOFError: ctrl+D")
     except AssertionError as e:
         print("AssertionError: ", e)
+
+
+def docs():
+    print(main.__doc__)
+    print(building.__doc__)
+    print(ft_count.__doc__)
 
 
 if __name__ == "__main__":

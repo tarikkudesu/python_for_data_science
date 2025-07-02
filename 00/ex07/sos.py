@@ -3,7 +3,9 @@ import sys
 
 def main():
     """
+
     The program takes a string as an argument and encodes it into Morse Code.
+
     """
     av = sys.argv
     ac = len(sys.argv)
@@ -35,6 +37,10 @@ def main():
         print()
     except AssertionError:
         print("AssertionError: the arguments are bad")
+
+
+def docs():
+    print(main.__doc__)
 
 
 if __name__ == '__main__':

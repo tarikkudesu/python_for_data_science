@@ -20,8 +20,13 @@ def main():
         assert av[2].isdigit()
         assert len([c for c in av[1] if c in chars]) == len(av[1])
         print(ft_filter(lambda ele: len(ele) > int(av[2]), av[1].split()))
-    except AssertionError as e:
+    except AssertionError:
         print("AssertionError: the arguments are bad")
+
+
+def docs():
+    print(main.__doc__)
+    print(ft_filter.__doc__)
 
 
 if __name__ == '__main__':
