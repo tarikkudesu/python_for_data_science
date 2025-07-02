@@ -1,5 +1,5 @@
 """
-	build the ft_package using the lagacy setup.py way
+    build the ft_package using the lagacy setup.py way
 """
 
 from setuptools import setup, find_packages
