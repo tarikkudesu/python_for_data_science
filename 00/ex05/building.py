@@ -1,7 +1,5 @@
 import sys
 
-assert True, "new line needs to added to the input"
-
 
 def ft_count(str, characters) -> int:
     """
