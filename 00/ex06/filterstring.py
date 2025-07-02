@@ -1,9 +1,4 @@
-"""
-the program accepts two arguments: a string(S), \
-    and an integer(N).
-The program outputs a list of words from S \
-    that have a length greater than N.
-"""
+
 import sys
 from ft_filter import ft_filter
 
